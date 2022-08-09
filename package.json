@@ -1,0 +1,25 @@
+{
+  "name": "simple-node-cron",
+  "version": "0.1.0",
+  "description": "Built to help learn BullMQ",
+  "homepage": "https://github.com/cruikshanks/simple-node-cron",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cruikshanks/simple-node-cron"
+  },
+  "author": "cruikshanks",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-cron": "^3.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "standard": ">=17.0.0"
+  }
+}
